@@ -29,7 +29,9 @@ Add /node_modules
 
 - Now, install necessary packages using npm
 
-``npm install --save react react-dom react-router-dom webpack babel-core babel-loader babel-preset-react babel-preset-es2015``
+``npm install react react-dom react-router-dom webpack babel-core babel-loader babel-preset-react babel-preset-es2015``
+
+- You should have a package.json file. Ensure the ``script`` object contains ``"webpack": "webpack"``
 
 - Add and commit changes locally, and push them to a new repository on GitHub
 - Ensure node_modules were ignored
@@ -81,3 +83,9 @@ document.addEventListener('DOMContentLoaded', () => {
 ```
 
 - Write a functional component in your root file and have it render some test content (don't forget to export)
+
+- run ``npm run webpack`` to create a bundle.js file
+
+- Add, commit and push changes
+
+- From terminal: ``open index.html`` to view your test content in Chrome
