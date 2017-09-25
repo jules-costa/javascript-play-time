@@ -86,6 +86,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 - run ``npm run webpack`` to create a bundle.js file
 
+- Add the relative route to your bundle in index.html
+
+```html
+<script type="text/javascript" src="./bundle.js"></script>
+```
+
 - Add, commit and push changes
 
 - From terminal: ``open index.html`` to view your test content in Chrome
